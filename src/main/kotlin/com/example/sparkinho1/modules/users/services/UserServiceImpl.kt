@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service
 @Service
 class UserServiceImpl : UserService {
     override fun getUserList(): List<String> {
-        return listOf("Michele")
+        return emptyList()
     }
 
     override fun createUser(userName: String): String {
